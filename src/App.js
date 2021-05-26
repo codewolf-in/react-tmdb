@@ -8,7 +8,7 @@ import MovieDetails from "./components/MovieDetails/MovieDetails";
 
 class App extends Component {
   componentDidMount = () => {
-    var applicationLoader = document.querySelector("#application-loader");
+    let applicationLoader = document.querySelector("#application-loader");
     applicationLoader.outerHTML = "";
   };
 
